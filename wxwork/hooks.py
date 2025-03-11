@@ -245,3 +245,6 @@ app_license = "mit"
 #         "target": r"/api/method/wxwork.wxwork.wxwork_service.wxwork_verify_domain_file?filename=\1",
 #     }
 # ]
+
+
+app_include_js = "/assets/wxwork/js/wxwork.js"
