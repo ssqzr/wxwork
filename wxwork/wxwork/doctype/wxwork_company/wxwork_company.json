@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:company_name",
+ "creation": "2025-03-10 12:15:47.286102",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_gtkj",
+  "company_name",
+  "company_id",
+  "wx_verify_domain_file"
+ ],
+ "fields": [
+  {
+   "description": "\u53ef\u4ee5\u5728\u4f01\u4e1a\u5fae\u4fe1\u201c\u6211\u7684\u4f01\u4e1a\u201d\u91cc\u83b7\u53d6\u540d\u79f0\u3002",
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "\u4f01\u4e1a\u5fae\u4fe1\u7684\u4f01\u4e1a\u540d\u79f0",
+   "not_nullable": 1,
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "description": "\u53ef\u4ee5\u5728\u4f01\u4e1a\u5fae\u4fe1\u201c\u6211\u7684\u4f01\u4e1a\u201d\u91cc\u83b7\u53d6ID\u3002",
+   "fieldname": "company_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "\u4f01\u4e1a\u5fae\u4fe1\u91cc\u7684\u4f01\u4e1aID",
+   "not_nullable": 1,
+   "reqd": 1,
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "section_break_gtkj",
+   "fieldtype": "Section Break",
+   "label": "\u516c\u53f8\u8bbe\u7f6e"
+  },
+  {
+   "description": "\u6587\u4ef6\u83b7\u53d6\u5730\u5740\uff1a\u4f01\u4e1a\u5fae\u4fe1\u540e\u7aef -> \u5e94\u7528\u7ba1\u7406 -> \u201c\u67d0\u81ea\u5efa\u5e94\u7528\u201d -> \u7f51\u9875\u6388\u6743\u53caJS-SDK -> \u914d\u7f6e\u53ef\u4fe1\u57df\u540d\u9700\u5b8c\u6210\u57df\u540d\u5f52\u5c5e\u8ba4\u8bc1\u3002</br>\n\u9700\u8981\u5c06\u6587\u6863\u8bbe\u7f6e\u4e3a\u516c\u5f00\uff0c\u4f01\u4e1a\u5fae\u4fe1\u624d\u53ef\u4ee5\u8bbf\u95ee\u3002",
+   "fieldname": "wx_verify_domain_file",
+   "fieldtype": "Attach",
+   "label": "\u57df\u540d\u5f52\u5c5e\u8ba4\u8bc1\u6587\u4ef6",
+   "make_attachment_public": 1,
+   "not_nullable": 1,
+   "reqd": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-03-11 15:27:03.163229",
+ "modified_by": "Administrator",
+ "module": "wxwork",
+ "name": "WXWork Company",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

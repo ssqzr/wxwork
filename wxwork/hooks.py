@@ -237,3 +237,11 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+# 用于企业微信的域名归属认证
+# 但是不支持重定向
+# website_redirects = [
+#     {
+#         "source": r"/(WW_verify_.*)",
+#         "target": r"/api/method/wxwork.wxwork.wxwork_service.wxwork_verify_domain_file?filename=\1",
+#     }
+# ]

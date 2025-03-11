@@ -1,0 +1,118 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2025-03-10 12:12:48.082777",
+ "description": "\u5bf9\u63a5\u4f01\u4e1a\u5fae\u4fe1\u5e94\u7528\u7684\u8bbe\u7f6e",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_kgvh",
+  "wx_company",
+  "section_break_kgvk",
+  "wx_app_name",
+  "wx_app_agentid",
+  "wx_app_secret",
+  "section_break_grkv",
+  "app_url",
+  "section_break_gmws",
+  "wx_homepage"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_kgvk",
+   "fieldtype": "Section Break",
+   "label": "\u4f01\u4e1a\u5fae\u4fe1\u5e94\u7528\u8bbe\u7f6e"
+  },
+  {
+   "fieldname": "wx_app_name",
+   "fieldtype": "Data",
+   "label": "\u4f01\u4e1a\u5fae\u4fe1\u5e94\u7528\u540d\u79f0"
+  },
+  {
+   "description": "\u53ef\u4ee5\u5728\u4f01\u4e1a\u5fae\u4fe1\u201c\u5e94\u7528\u7ba1\u7406\u201d\u91cc\u83b7\u53d6ID\u3002",
+   "fieldname": "wx_app_agentid",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "\u4f01\u4e1a\u5fae\u4fe1\u5e94\u7528ID",
+   "not_nullable": 1,
+   "reqd": 1
+  },
+  {
+   "description": "\u53ef\u4ee5\u5728\u4f01\u4e1a\u5fae\u4fe1\u201c\u5e94\u7528\u7ba1\u7406\u201d\u91cc\u83b7\u53d6Secret\u3002",
+   "fieldname": "wx_app_secret",
+   "fieldtype": "Password",
+   "in_list_view": 1,
+   "label": "\u4f01\u4e1a\u5fae\u4fe1\u5e94\u7528Secret",
+   "not_nullable": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_grkv",
+   "fieldtype": "Section Break",
+   "label": "\u4f01\u4e1a\u5fae\u4fe1\u5e94\u7528\u5bf9\u63a5\u8bbe\u7f6e"
+  },
+  {
+   "fieldname": "section_break_gmws",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "1. \u5c06\u6b64\u5730\u5740\u8bbe\u7f6e\u5230\u4f01\u4e1a\u5fae\u4fe1\u81ea\u5efa\u5e94\u7528\u7684\u5e94\u7528\u4e3b\u9875</br>\n2. \u914d\u7f6e \u201c\u7f51\u9875\u6388\u6743\u53caJS-SDK\u201d</br>\n3. \u201c\u4f01\u4e1a\u5fae\u4fe1\u6388\u6743\u767b\u5f55\u201d -> \u201c\u6388\u6743\u56de\u8c03\u57df\u201d</br>\n4. \u914d\u7f6e\u201c\u4f01\u4e1a\u53ef\u4fe1IP\u201d\uff0c\u586b\u5199\u4f01\u4e1a\u5916\u7f51\u5730\u5740\uff0c\u5426\u5219\u4e0d\u80fd\u8c03\u7528\u4f01\u4e1a\u5fae\u4fe1\u63a5\u53e3\n",
+   "fieldname": "wx_homepage",
+   "fieldtype": "Small Text",
+   "in_preview": 1,
+   "label": "\u4f01\u4e1a\u5fae\u4fe1\u5e94\u7528\u7684\u5e94\u7528\u4e3b\u9875",
+   "read_only": 1
+  },
+  {
+   "fieldname": "wx_company",
+   "fieldtype": "Link",
+   "label": "\u516c\u53f8",
+   "not_nullable": 1,
+   "options": "WXWork Company",
+   "reqd": 1
+  },
+  {
+   "description": "\u4f01\u4e1a\u5fae\u4fe1\u5e94\u7528\u5bf9\u5e94\u7684\u672c\u5730\u670d\u52a1\u7684URL\u3002</br>\n\u5c06\u57df\u540d\u6dfb\u52a0\u5230\u4f01\u4e1a\u5fae\u4fe1\u4fe1\u4efb\u540d\u5355\u3002</br></br>\n\u793a\u4f8b\uff1ahttps://demo.erpnext.com:8000/app1",
+   "fieldname": "app_url",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "\u672c\u5730\u5e94\u7528URL",
+   "not_nullable": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_kgvh",
+   "fieldtype": "Section Break",
+   "label": "\u4f01\u4e1a\u5fae\u4fe1\u516c\u53f8"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-03-11 16:45:50.853169",
+ "modified_by": "Administrator",
+ "module": "wxwork",
+ "name": "WXWork APP",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "wx_app_name"
+}
